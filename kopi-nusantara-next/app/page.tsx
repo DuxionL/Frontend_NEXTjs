@@ -1,6 +1,7 @@
 import MenuCard from "./components/MenuCard";
 import FaqList from "./components/FaqList";
-
+const NAMA = "Garry Malvin Jiu";
+const NIM = "535250077";
 const menus = [
   {
     image: "/images/kopi-susu-gula-aren.jpeg",
@@ -63,6 +64,11 @@ const faqs = [
 export default function Home() {
   return (
     <>
+
+    <div className="identity-bar">
+        <h1>{NAMA}</h1>
+        <p>NIM: {NIM}</p>
+      </div>
 
       <header className="site-header">
         <div className="nav-wrap">
